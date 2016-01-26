@@ -1,4 +1,27 @@
-#Changed something
+<# 
+.SYNOPSIS 
+   Currently a work in progress to potentially be merged with vCheck.
+
+   .DESCRIPTION
+   Intended use is to gather information regarding all VSAN hosts in a vCenter inventory
+   and compare the data found to known good VSAN configurations and best practices.
+   Currently being developed for Dell VSAN Ready Nodes and hardware as the majority of
+   the data will come from vCenter this could eventually be vendor agnostic.
+
+.NOTES 
+   File Name  : VSAN Check Script.ps1 
+   Author     : Dustin Lenz - @dblenz
+   Version    : .01 Alpha
+
+.INPUTS
+   No inputs required
+
+.OUTPUTS
+   HTML formatted email
+
+.PARAMETER ???
+   ???
+#>
 
 Function main {
 	$VSANHostData=@{}
